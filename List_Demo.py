@@ -1,18 +1,18 @@
-l = [1, 2, "Ayush", 4.5, 6]
+l = [1, 2, "Ayush", 4.5, 6,45,"dy"]
 
-l.insert(1,3)
-print(l)
-
-l.append("END")
-print(l)
-
-l[3] = True
-print(l)
-
-del l[1]
-print(l)
-print(l[-1])
-print(l[1:5])
+# l.insert(1,3)
+# print(l)
+#
+# l.append("END")
+# print(l)
+#
+# l[3] = True
+# print(l)
+#
+# del l[1]
+# print(l)
+# print(l[-1])
+print(l[-3:-1])
 
 
 # Dictionary
